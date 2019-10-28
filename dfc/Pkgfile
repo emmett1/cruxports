@@ -1,0 +1,20 @@
+# Description:	Display file system space usage using graphs and colors
+# URL:		http://projects.gw-computing.net/projects/dfc
+# Maintainer:	emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on:	cmake gettext
+
+name=dfc
+version=3.1.1
+release=1
+source=(https://github.com/Rolinh/dfc/archive/v$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	    
+	cmake . -DPREFIX=/usr -DSYSCONFDIR=/etc -DCMAKE_BUILD_TYPE=RELEASE
+
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/{doc,locale} $PKG/{usr/share/man,etc/xdg/dfc}/{fr,nl}
+}

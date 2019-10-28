@@ -1,0 +1,25 @@
+# Description:	A netload plugin for the Xfce panel
+# URL:		http://goodies.xfce.org/projects/panel-plugins/xfce4-netload-plugin
+# Maintainer:	Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on:	xfce4-panel intltool
+
+name=xfce4-netload-plugin
+version=1.3.2
+release=1
+source=(http://archive.xfce.org/src/panel-plugins/$name/${version%.*}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--libexecdir=/usr/lib \
+		--localstatedir=/var \
+		--disable-debug \
+		--disable-nls
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/locale
+}

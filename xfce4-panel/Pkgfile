@@ -1,0 +1,19 @@
+# Description:	Xfce4 Panel
+# URL:		https://www.xfce.org/
+# Maintainer:	Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on:	exo garcon libwnck-gtk3 libxfce4ui xfconf
+
+name=xfce4-panel
+version=4.14.1
+release=1
+source=(http://archive.xfce.org/src/xfce/xfce4-panel/${version::4}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr --sysconfdir=/etc --enable-gtk3 --disable-nls
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/{locale,gtk-doc}
+}

@@ -1,0 +1,19 @@
+# Description:	DVD/CD/music player for Xfce that uses GStreamer
+# URL:		http://goodies.xfce.org/projects/applications/parole/
+# Maintainer:	emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on:	gst-plugins-base gst-plugins-good libxfce4ui libnotify taglib gst-libav
+
+name=parole
+version=1.0.4
+release=1
+source=(http://archive.xfce.org/src/apps/parole/${version::3}/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr --disable-nls
+	make
+	make DESTDIR=$PKG install
+
+	rm -r $PKG/usr/share/locale
+}

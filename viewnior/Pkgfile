@@ -1,0 +1,22 @@
+# Description:	A simple, fast and elegant image viewer program
+# URL:		http://xsisqox.github.com/Viewnior/
+# Maintainer:	emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on:	exiv2 gtk gnome-common intltool meson perl pkg-config
+
+name=viewnior
+version=1.7
+release=1
+source=(https://github.com/hellosiyan/Viewnior/archive/$name-$version.tar.gz)
+
+build() {
+	cd Viewnior-$name-$version
+	
+	mkdir build
+	cd    build
+
+	meson --prefix=/usr
+	ninja
+	DESTDIR=$PKG ninja install
+
+	rm -r $PKG/usr/share/locale
+}
