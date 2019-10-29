@@ -12,6 +12,7 @@ d:thunar-volman
 d:xfce4-time-out-plugin
 d:lxappearance-obconf
 d:notification-daemon
+d:x-arc-white
 d:xfce4-xkb-plugin
 d:parole
 d:xfce4-timer-plugin
@@ -45,6 +46,7 @@ d:pcmanfm
 d:keybinder
 d:xfce4-weather-plugin
 d:xfce4-panel
+d:xarchiver
 d:garcon
 d:lxrandr
 d:libbytesize
@@ -82,6 +84,7 @@ d:xfwm4
 d:xfce4
 d:libwnck
 d:google-chrome
+d:xdg-user-dirs
 d:gsettings-desktop-schemas
 d:xfce4-netload-plugin
 d:udisks2
@@ -135,6 +138,9 @@ f:1d2bc84a7f05c7a1f4f2d20b6513e7f7:lxappearance-obconf/.footprint
 f:aa718f726ac59637d194fe3181137ef6:notification-daemon/Pkgfile
 f:eeb5bc14780c9917254e1b196ab58b83:notification-daemon/.md5sum
 f:76f1d9ff03eae41b4cd94691780f4fbf:notification-daemon/.footprint
+f:f9ecfc1edeada60275a9fcebcba95cbc:x-arc-white/Pkgfile
+f:bfb931fa95cf2a7cfe71386404024eec:x-arc-white/.md5sum
+f:66c981a37ef9735a05a25b70e50c1068:x-arc-white/.footprint
 f:881e2d439b20d7fd24671a53e246e302:xfce4-xkb-plugin/Pkgfile
 f:093ec611212ab478b0cc3e81ef5f6d0f:xfce4-xkb-plugin/.md5sum
 f:fd2c2882af037aa8a6880fe72038b3d0:xfce4-xkb-plugin/.footprint
@@ -239,6 +245,10 @@ f:da25ac91be3024da6226abde32326c30:xfce4-weather-plugin/.footprint
 f:2e1a82f7b1979f59a35d8cb96c74b28b:xfce4-panel/Pkgfile
 f:ab27d1181c67381af1980c5969d4aee0:xfce4-panel/.md5sum
 f:fca29bded57b1f5a568820f791863136:xfce4-panel/.footprint
+f:2dc9d6aa4040891cea9c30cce4eeff39:xarchiver/Pkgfile
+f:0b3c933f2ed64e75d572f88bc26635fd:xarchiver/xarchiver-0.5.4-fixes-1.patch
+f:efbc20859a0f242b28e8d4f9e34e1225:xarchiver/.md5sum
+f:af54e58a5d6f4ec16fc7f0ce93271ac0:xarchiver/.footprint
 f:abb5ef050744a87761ec7c11ac885f21:garcon/Pkgfile
 f:61f0a987d17dcad1395164e3e000fbbd:garcon/.md5sum
 f:ac81c04049ebaa46eaa6b8a4d7dff4d3:garcon/.footprint
@@ -359,6 +369,11 @@ f:99fa93d5e7fb5d622cef0f9621f3ffa3:google-chrome/google-chrome-stable.sh
 f:d41d8cd98f00b204e9800998ecf8427e:google-chrome/.nostrip
 f:974aadc2b185ae136f4a620283036104:google-chrome/.md5sum
 f:ab9ec6a1628233db5b951b213825a9e6:google-chrome/.footprint
+f:32983af2d0945f7daeb44ead3a406f6e:xdg-user-dirs/Pkgfile
+f:e4e633a75d873fb36c7e6fd130e1cfa0:xdg-user-dirs/Pkgfile~
+f:3506f54b1890820dacf590f1b37ce9ba:xdg-user-dirs/.Pkgfile.un~
+f:0b6605854b16c1825c0e0a73a0b48ecf:xdg-user-dirs/.md5sum
+f:3c94457c55057dfec4a25ac166278ebb:xdg-user-dirs/.footprint
 f:b06f54dbda414fae4367130acc35dc14:gsettings-desktop-schemas/Pkgfile
 f:43a3c95148cf918f8722b8c054b2aded:gsettings-desktop-schemas/.md5sum
 f:e5f74be27525658dae59401455944186:gsettings-desktop-schemas/post-install
