@@ -87,6 +87,7 @@ d:xfce4-netload-plugin
 d:udisks2
 d:lxsession
 d:lxtask
+d:libmtp
 d:libxfce4ui
 d:xfce4-mount-plugin
 d:xfce4-cpugraph-plugin
@@ -263,7 +264,7 @@ f:da677e30e10737cdc9bd62ac2957c01d:xfce4-notifyd/Pkgfile
 f:c1757d2e82d9f7bb462e6642756db1e2:xfce4-notifyd/.md5sum
 f:20f486c59cffb5b885aaf7981b928615:xfce4-notifyd/.footprint
 f:91fa190da87657c87e3b7bd8c0cde2f0:neofetch/Pkgfile
-f:48201828efc0217cc61d3949c48396f7:neofetch/.md5sum
+f:3cc7d2f7ae998936bae6b92dd811c1e8:neofetch/.md5sum
 f:7115e706eca005970f078ca22e563960:neofetch/.footprint
 f:cfb2cd3942143a748eeaf103a328c29d:uthash/Pkgfile
 f:965b250007c6c6a2ac0b8616096aa679:uthash/.md5sum
@@ -374,6 +375,9 @@ f:e045f4016746beca793d78cdba5bb762:lxsession/.footprint
 f:1e2a53b59b532f1d2c71b0d73b4d18bd:lxtask/Pkgfile
 f:ed2c7fe687f1477e4b7b49b486aef6e1:lxtask/.md5sum
 f:78aa2bc290a6ad4426d79774df1ee4a4:lxtask/.footprint
+f:058b2be123bab3bdb0c195d75f24204a:libmtp/Pkgfile
+f:225b7c0e1414b46735f04ee588bed85f:libmtp/.md5sum
+f:e4022aa0a783af978cff08b1bf15ee10:libmtp/.footprint
 f:538734de66aa8031b87339e012697866:libxfce4ui/Pkgfile
 f:ee95b805eacb65804bca642167502afd:libxfce4ui/.md5sum
 f:87e2bdea82e85d4a86d9e988ad5c54e6:libxfce4ui/.footprint
