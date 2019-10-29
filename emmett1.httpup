@@ -1,0 +1,8 @@
+#
+# /etc/ports/emmett1.httpup: emmett1's port collection
+#
+
+ROOT_DIR=/usr/ports/emmett1
+URL=https://raw.githubusercontent.com/emmett1/cruxports/master/
+
+# End of file
