@@ -1,0 +1,26 @@
+# Description: chpasswd program from shadow
+# URL: https://github.com/shadow-maint/shadow/
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+
+name=chpasswd
+version=4.13
+release=1
+source=(https://github.com/shadow-maint/shadow/releases/download/$version/shadow-$version.tar.xz)
+
+build() {
+	cd shadow-$version
+	./configure \
+                --prefix=/usr \
+                --bindir=/usr/bin \
+                --sbindir=/usr/sbin \
+                --sysconfdir=/etc \
+                --disable-shared \
+                --disable-shadowgrp \
+                --disable-nls \
+                --without-selinux \
+                --without-audit
+        make
+        make DESTDIR=$PWD/PKG install
+	install -d $PKG/usr/sbin
+	cp PKG/usr/sbin/$name $PKG/usr/sbin
+}

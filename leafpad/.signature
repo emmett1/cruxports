@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STYH9uQCmFn8ZcveR1F6HWyj8ydvAISHHDFDVJJEmjZEsdKFNx8+3daUa6DxifjCImKF1Urhy6rTy40AsBOuieQ8=
+SHA256 (Pkgfile) = be61d1eb26bcbdeaa952a4af46e360895ece4cd42efb097597c01c6961a26c13
+SHA256 (.footprint) = 5522e6429d4e28defabb65b5a35e95450ec5d7fdea1c62a5214d4adb98e183fe
+SHA256 (leafpad-0.8.19.tar.gz) = 07d3f712f4dbd0a33251fd1dee14e21afdc9f92090fc768c11ab0ac556adbe97

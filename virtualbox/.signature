@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STSJlHZsm5wy6obW2hsLoctJeAROd0C4sm6vWRAqxtknPFOCKYXvmxInigdKOKdujSjN2s11/VQZsugMBU/afwwA=
+SHA256 (Pkgfile) = 0fc9ca9bc43816b46dfcdc46a98fc6c2f71b15d40a930d6c550afd393fb4ef19
+SHA256 (.footprint) = 0e080e231e2f3216b7e698886cdbc23c48d008066f0a51fd4e702021660afb2f
+SHA256 (VirtualBox-7.0.10.tar.bz2) = 0b1e6d8b7f87d017c7fae37f80586acff04f799ffc1d51e995954d6415dee371
+SHA256 (LocalConfig.kmk) = 0e327d6222c03b64eab3076fe4430615faa778e6999d148b39d316ac3662b65f
+SHA256 (virtualbox.60-vboxdrv.rules) = 9c5238183019f9ebc7d92a8582cad232f471eab9d3278786225abc1a1c7bf66e
+SHA256 (dkms.conf) = 76d98ea062fcad9e5e3fa981d046a6eb12a3e718a296544a68b66f4b65cb56db

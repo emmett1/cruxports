@@ -1,0 +1,23 @@
+# Description: Extra icons for Tango
+# URL: http://tango.freedesktop.org/
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on: icon-naming-utils imagemagick
+
+name=tango-icon-theme-extras
+version=0.1.0
+release=1
+source=(http://tango.freedesktop.org/releases/$name-$version.tar.gz
+	rsvg.patch)
+
+build() {
+	cd $name-$version
+
+	patch -Np0 -i ../rsvg.patch
+
+	autoreconf -fi
+	./configure \
+		--prefix=/usr \
+		--enable-png-creation
+	make
+	make DESTDIR=$PKG install
+}

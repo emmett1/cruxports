@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# get sifuh kernel name
+kver=$(file /boot/vmlinuz-sifuh | awk '{print $9}')
+
+if [ $(command -v mkinitramfs) ]; then
+	echo "mkinitramfs: generating initramfs for kernel $kver..."
+	mkinitramfs -q -k $kver -o /boot/initrd-sifuh.img
+fi
+
+depmod $kver

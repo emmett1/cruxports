@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STXKzRGqhRWhCugqcoSEsTL7HKymLHkJJDbQ9+k2qJUm+AsUv0Ns98J/A7CYFANGmZRlxkgpMww4gWYBZFg3X+QM=
+SHA256 (Pkgfile) = 4f057c5d188a8bba3088ec5c1cbe0007e02c4592b9c793f43e07d032b7e00b59
+SHA256 (.footprint) = 17c7aff19d8940b641972708efb46e0a0f2705eb15c26a45ad1e22f74eaddfa6
+SHA256 (gmrun-1.4w.tar.gz) = 7715eca337877abe180b435494a12d3ec3383a6677fe638724bcd23d84a5841b

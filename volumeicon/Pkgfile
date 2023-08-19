@@ -1,0 +1,18 @@
+# Description: Volume control for your system tray
+# URL: http://softwarebakery.com/maato/volumeicon.html
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on: gtk3 alsa-lib libnotify
+
+name=volumeicon
+version=0.5.1
+release=2
+source=(http://nullwise.com/files/$name/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	./configure --prefix=/usr \
+		    --enable-notify		    
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
+}

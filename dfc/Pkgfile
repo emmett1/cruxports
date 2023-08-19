@@ -1,12 +1,11 @@
-# Description:	Display file system space usage using graphs and colors
-# URL:		http://projects.gw-computing.net/projects/dfc
-# Maintainer:	emmett1, emmett1 dot 2miligrams at gmail dot com
-# Depends on:	cmake gettext
+# Description: Display file system space usage using graphs and colors
+# URL: http://projects.gw-computing.net/projects/dfc
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
 
 name=dfc
 version=3.1.1
 release=1
-source=(https://github.com/Rolinh/dfc/archive/v$version/$name-$version.tar.gz)
+source=(https://github.com/Rolinh/dfc/archive/v${version}/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
@@ -16,5 +15,10 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	rm -r $PKG/usr/share/{doc,locale} $PKG/{usr/share/man,etc/xdg/dfc}/{fr,nl}
+	rm -r $PKG/usr/share/man/fr \
+	      $PKG/usr/share/man/nl \
+	      $PKG/etc/xdg/dfc/fr \
+	      $PKG/etc/xdg/dfc/nl \
+	      $PKG/usr/share/doc \
+	      $PKG/usr/share/locale
 }

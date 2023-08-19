@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STSSmidT+KU8HbsR/b994jfeXnTbaKcmMzyV7NK14A3bGIjZrHNxt02tNOBjsQh6OUi5M/cKL8r8xtf0DkTOqVAQ=
+SHA256 (Pkgfile) = 82427c4f15e55d857f6a6d8560fc37494714ec4b072b069ee47b4dbedcf83554
+SHA256 (.footprint) = d65389dbb204e5b5d77c2218fe763c113cbd97315bc49748829e7369d6937cb3
+SHA256 (shadow-4.13.tar.xz) = 9afe245d79a2e7caac5f1ed62519b17416b057ec89df316df1c3935502f9dd2c

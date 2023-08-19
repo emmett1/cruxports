@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STR9G3x3lZ4SfnhaqTEDQeCzBDz6xfPbSrtQCoHwnwFMLIBSsm9EzvDegs5lSpfcA9q8Z0lsx78ST9Y0HheAvIAc=
+SHA256 (Pkgfile) = a079b0487a04183821b179ac8ba0e20f9d7b6e28d0645e6720caeaebe081779f
+SHA256 (.footprint) = 3d3e0095ec0227e7b994b5ec7d2d94b1707d85daaafb7337bf471ab2d93da993
+SHA256 (gcolor2-0.4.tar.gz) = 89bd6c6d27ba5a679ec60057de8497855072f520515b490e5986fc3509774f23
+SHA256 (gcolor2-0.4-amd64.patch) = 93b3218de6d522017cb2d14cb94cfe523100234a45fe9b46cee2274612887195
+SHA256 (gcolor2.desktop) = b66b9af39e1cd09d4c7dbd7f76d6910e10586df3226c826d01cd9bfcb40519b3

@@ -1,0 +1,7 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STXMxQHbQj9/a4xWmnGRVgn8ngj4pitKj6ovSh/otWAW+Nuj5QtXbhy9SZi3H9+Vp3CfrV4DHSMoJqZ9peN9T/A0=
+SHA256 (Pkgfile) = 0462a2ac186f4cb2f64083a794742f4c033567b83fb3ad0e9360dce682fa2f65
+SHA256 (.footprint) = c9906369b7a8337aa87fdfc7043c2b34beb56d15ef70ce92cb2d13531de58a27
+SHA256 (63c0bb3acaf3c9e0146007e08c13be448e1814c9.tar.gz) = ed6c0c4c16ca9053f944d4cf8ed297250e849194bcb7fdd0917d3c68cdfa9b8b
+SHA256 (mkinitramfs.conf) = 4322929b8ec43bf05be9914dfb0a3b8a7fdad20b5e96f367290bdc048718f53d
+SHA256 (base.hook) = 4a464d3496bace7b882bba6f73d67f553dde61fc5832b837266058aaf1acdf11

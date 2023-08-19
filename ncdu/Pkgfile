@@ -1,0 +1,13 @@
+# Description: Disk usage analyzer with an ncurses interface
+# URL: https://dev.yorhel.nl/ncdu
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+
+name=ncdu
+version=2.1.2
+release=1
+source=(http://dev.yorhel.nl/download/$name-$version-linux-x86_64.tar.gz)
+
+build() {
+	mkdir -p $PKG/usr/bin
+	install -m 0755 ncdu $PKG/usr/bin
+}

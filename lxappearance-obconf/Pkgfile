@@ -1,7 +1,7 @@
-# Description:	Plugin for LXAppearance to configure OpenBox
-# URL:		http://lxde.org/
-# Maintainer:	Emmett1, emmett1 dot 2miligrams at gmail dot com
-# Depends on:	lxappearance openbox
+# Description: Plugin for LXAppearance to configure Openbox
+# URL: https://lxde.org/
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on: lxappearance
 
 name=lxappearance-obconf
 version=0.2.3
@@ -14,6 +14,5 @@ build() {
 	./configure --prefix=/usr --disable-static
 	make
 	make DESTDIR=$PKG install
-
-	rm -r $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/locale/
 }

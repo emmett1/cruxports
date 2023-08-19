@@ -1,0 +1,19 @@
+# Description: Paper is an open source desktop theme and icon project by Sam Hewitt
+# URL: https://snwh.org/paper
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on: meson
+
+name=paper-icon-theme
+version=1.5.0
+release=1
+source=(https://github.com/snwh/$name/archive/v.$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-v.$version
+	meson setup build \
+	--prefix=/usr \
+	--buildtype=plain \
+	--wrap-mode nodownload
+	meson compile -C build
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}

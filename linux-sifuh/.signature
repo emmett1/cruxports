@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STdHUmCFU2UG//BFv72bkuAFew/1PnEv+FUURSrltiiV/Hl1DiE9+A/oW9aBhn7LyXkuUzPT8aErsKUjXQUp8cAM=
+SHA256 (Pkgfile) = d7fac4f4f54791e12111a36678a8b64e9d1824efa2b353b454d2094bff2dc0ed
+SHA256 (.footprint) = 8dff0b53660689dbc3362f3124d94edb4967d83cb7fb15e4af4c5d78d3b84a3c
+SHA256 (linux-5.18.16.tar.xz) = f1f586251e63de14c86e5f95b96beb15a0434f1e6e21df788d123564af0d11ce
+SHA256 (dotconfig) = 52e82ea57a1e9b74e53d8fd22f7cf96ff2194d9474384031c3a50a4f20e99fc3

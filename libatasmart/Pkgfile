@@ -1,6 +1,6 @@
-# Description:	Disk reporting library. It only supports a subset of the ATA S.M.A.R.T. functionality
-# URL:		http://0pointer.de/blog/projects/being-smart.html
-# Maintainer:	Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Description: ATA S.M.A.R.T. reader and parser library
+# URL: https://0pointer.de/blog/projects/being-smart.html
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
 
 name=libatasmart
 version=0.19
@@ -13,6 +13,5 @@ build() {
 	./configure --prefix=/usr --disable-static
 	make
 	make DESTDIR=$PKG install
-
-	rm -r $PKG/usr/share/doc
+	rm $PKG/usr/share/doc/libatasmart/README
 }

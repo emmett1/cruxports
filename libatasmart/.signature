@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STb9P5N/Ibps8nGK0Hm5YFzNaMqyUEfHY7l7SzsgxpehuoEFf8lIl1AAFmC2+C8AOMU30OOrqmiSWoagL5hessgs=
+SHA256 (Pkgfile) = 94d8b61e9f04235aab7a11f8c1c07ef71571ac2623bed77cb38ac121bbf309ba
+SHA256 (.footprint) = e739db62db3e147cba731ecffb4d14031069744c9284907ddcce556f5879d36c
+SHA256 (libatasmart-0.19.tar.xz) = 61f0ea345f63d28ab2ff0dc352c22271661b66bf09642db3a4049ac9dbdb0f8d

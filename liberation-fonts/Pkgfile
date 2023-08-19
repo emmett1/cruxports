@@ -1,7 +1,6 @@
-# Description:	Red Hats Liberation fonts
-# URL:		https://www.redhat.com/promo/fonts/
-# Maintainer:	Emmett1, emmett1 dot 2miligrams at gmail dot com
-# Depends on:	fontconfig encodings
+# Description: Font family which aims at metric compatibility with Arial, Times New Roman, and Courier New
+# URL: https://github.com/liberationfonts/liberation-fonts
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
 
 name=liberation-fonts
 version=2.00.1
@@ -13,8 +12,8 @@ source=(https://releases.pagure.org/liberation-fonts/liberation-fonts-ttf-$versi
 
 build() {
 	cd $name-ttf-$version
-	install -d $PKG/usr/share/fonts/X11/TTF
-	cp *.ttf $PKG/usr/share/fonts/X11/TTF/
+	install -d $PKG/usr/share/fonts/TTF
+	cp *.ttf $PKG/usr/share/fonts/TTF/
 
 	install -Dm0644 ../30-0-liberation-mono.conf $PKG/etc/fonts/conf.avail/30-$name-mono.conf
 	install -Dm0644 ../30-0-liberation-sans.conf $PKG/etc/fonts/conf.avail/30-$name-sans.conf

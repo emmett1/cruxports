@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STRyumC9k5PfKs4moJvCFOtpBDvizmOUDsiBTFcm+tjjxjnmOiWqMxYk5SGJqcrTqUqKyH0X4cNW3I6EAEbiovwc=
+SHA256 (Pkgfile) = fd3f9a07b81a5be045565b78d12b03b1321182166236540eafbe532eaadccf4a
+SHA256 (.footprint) = b761eb26901d4c7fb126f55ce6de8e01563c26ec167a9c06eecaa7e5a62d32e6
+SHA256 (viewnior-1.8.tar.gz) = b9319171ebca23929e6ea8039c194b1595d92e764db5e3890836fb5c36e233b0
+SHA256 (exiv2-0.28.patch) = 307550f68decc1d2bd67bb0c5ec52205c654446fcd06c6ea14973406790535c3

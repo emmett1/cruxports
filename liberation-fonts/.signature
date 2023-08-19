@@ -1,0 +1,8 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STWHKhV3B7YQUgNLBoopnfuCTG/K94J/GpVSAW/jYQUecoaVi+9CHJaw0oM/STV719m/s1bPObkpfVa2FnlIr2QQ=
+SHA256 (Pkgfile) = b4e3197ddfe0558b8cd568e7735d2f6154b2afc640c40e9b25f737737e930c18
+SHA256 (.footprint) = 2ebcf755d7de0ce953fc71bc86110247de54728b295421f09a1a0d458dd1790f
+SHA256 (liberation-fonts-ttf-2.00.1.tar.gz) = 7890278a6cd17873c57d9cd785c2d230d9abdea837e96516019c5885dd271504
+SHA256 (30-0-liberation-mono.conf) = 40e12440024c568dd9159b8e0089ebde98651dcb4dd50d188cbb121d83c49e5c
+SHA256 (30-0-liberation-sans.conf) = 255da464c88a189a9e59ab412464f1d7ff64767c99f2a7477bafb4f92bc64121
+SHA256 (30-0-liberation-serif.conf) = 54a2bbb928fec39322852df8069a5dfd03be454b5da7849e647114cbcc7375ce

@@ -1,7 +1,7 @@
-# Description:	Authentication Agent for Polkit that integrates well with the GNOME Desktop environment
-# URL:		https://www.freedesktop.org/wiki/Software/polkit/
-# Maintainer:	Emmett1, emmett1 dot 2miligrams at gmail dot com
-# Depends on:	gtk3 polkit
+# Description: Legacy polkit authentication agent for GNOME
+# URL: https://gitlab.gnome.org/Archive/policykit-gnome
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on: polkit
 
 name=polkit-gnome
 version=0.105
@@ -15,7 +15,7 @@ build() {
 	make
 	make DESTDIR=$PKG install
 
-	rm -r $PKG/usr/share/locale
+	rm -rf $PKG/usr/share/locale/
 
 install -d $PKG/etc/xdg/autostart
 cat > $PKG/etc/xdg/autostart/polkit-gnome-authentication-agent-1.desktop << "EOF"

@@ -1,10 +1,10 @@
-# Description:	Media player with built-in codecs that can play virtually all video and audio formats
-# URL:		http://smplayer.sourceforge.net/
-# Maintainer:	emmett1, emmett1 dot 2miligrams at gmail dot com
-# Depends on:	mplayer qt5 hicolor-icon-theme
+# Description: Media player with built-in codecs that can play virtually all video and audio formats
+# URL: http://smplayer.sourceforge.net/
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on: mplayer qt5 hicolor-icon-theme
 
 name=smplayer
-version=19.5.0
+version=22.7.0
 release=1
 source=(https://downloads.sourceforge.net/$name/$name-$version.tar.bz2)
 

@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STZDuREmzSFXSJ7DUIgZ5H3e+uUyXM8rGLuJC6ubM5wuUsdVSb8y4HCLqne+lW+6mGmmqv4dv2yct1aXcrMuvLg0=
+SHA256 (Pkgfile) = 1238572e950321f1c90147f3bb57833a88d69687a269d5b3ad960bac827ff856
+SHA256 (.footprint) = 9ca3aab30f40630e60641ed892bf56a30f3b64a9d772db0d6ea68f87e0e38b3b
+SHA256 (arcbox-0.1.2.tar.gz) = f4e803e2457b68fd54f1d37a961e160fec39073efdcbf6f7af00619a17ddbe0a

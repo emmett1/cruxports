@@ -1,0 +1,16 @@
+# Description: Library for reading, mastering and writing optical discs
+# URL: https://dev.lovelyhq.com/libburnia
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+
+name=libburn
+version=1.5.4
+release=1
+source=(http://files.libburnia-project.org/releases/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	./configure --prefix=/usr --disable-static
+	make
+	make DESTDIR=$PKG install
+}

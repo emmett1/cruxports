@@ -1,16 +1,15 @@
-# Description:	Manage user directories
-# URL:		https://www.freedesktop.org/wiki/Software/xdg-user-dirs
-# Maintainer:	Emmett1, emmett1 dot 2miligrams at gmail dot com
-# Depends on:	docbook-xsl
+# Description: Manage user directories like ~/Desktop and ~/Music
+# URL: https://www.freedesktop.org/wiki/Software/xdg-user-dirs
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
 
 name=xdg-user-dirs
-version=0.17
+version=0.18
 release=1
 source=(http://user-dirs.freedesktop.org/releases/$name-$version.tar.gz)
 
 build() {
 	cd $name-$version
-	./configure --prefix=/usr --sysconfdir=/etc --disable-nls
+	./configure --prefix=/usr --sysconfdir=/etc --disable-nls --enable-documentation=no
 	make
 	make DESTDIR=$PKG install
 }

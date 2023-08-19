@@ -1,0 +1,21 @@
+# Description: A flat theme with transparent elements for GTK 3, GTK 2 and Gnome-Shell
+# URL: https://github.com/jnsh/arc-theme
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on: sassc inkscape
+
+name=arc-gtk-theme
+_name=arc-theme
+version=20221218
+release=1
+source=(https://github.com/jnsh/$_name/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $_name-$version
+	meson setup \
+	--prefix=/usr \
+	--buildtype=plain \
+	--wrap-mode nodownload \
+	-Dthemes=gtk2,gtk3,metacity,xfwm build
+	meson compile -C build
+	DESTDIR=$PKG meson install --no-rebuild -C build
+}

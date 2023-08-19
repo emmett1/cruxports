@@ -1,0 +1,15 @@
+# Description: A fast pipe/static menu generator for the Openbox Window Manager (with icons support)
+# URL: https://github.com/trizen/obmenu-generator
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on: p5-linux-desktopfiles p5-data-dump
+
+name=obmenu-generator
+version=0.91
+release=1
+source=(https://github.com/trizen/obmenu-generator/archive/$version/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+	install -Dm755 $name $PKG/usr/bin/$name
+	install -Dm644 schema.pl $PKG/etc/xdg/$name/schema.pl
+}

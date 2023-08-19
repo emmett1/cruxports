@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STWMS7KnmckjKVzBtuIr4+Ww1fJExclEVpvWfRTqV4zuP32GG26sPenUPcX2sPy8s7dy4AjqUBKcV/GZeBWuZlgE=
+SHA256 (Pkgfile) = cdf1d8af26856d10296d75fcaf975451d9a3867780ccb34e76735db4150b19c0
+SHA256 (.footprint) = 6d29679a9f339f7aa1884b673dad6a1a4e93409d4f4d74dac348df07cc8935a9
+SHA256 (acpica-unix-20230628.tar.gz) = 86876a745e3d224dcfd222ed3de465b47559e85811df2db9820ef09a9dff5cce

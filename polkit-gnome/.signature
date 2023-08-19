@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STQhPzW1t5VwhIEqNpuUYKe7LxJRFOpNhXOTw7J37Ku11xr7s84qcPUXamRgsCsZBnzGqbmgrIL4Y5I8YzIHx2g8=
+SHA256 (Pkgfile) = f2d81c2459884a106d7c5add0f692bd388c643501414838e7120b0dd4708658b
+SHA256 (.footprint) = 4a890bf5f203bf2809ebf21913201638621ce7672d45dc99a92d58aaebd8a50d
+SHA256 (polkit-gnome-0.105.tar.xz) = 1784494963b8bf9a00eedc6cd3a2868fb123b8a5e516e66c5eda48df17ab9369

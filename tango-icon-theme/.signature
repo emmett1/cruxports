@@ -1,0 +1,6 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STQCxn6QbMe15+oyj2uAoPml5u2BoFv8zWxDWB2IuAVe+XV07XnQVfzu9qhPSR+Mlu9xaR8AbjfqMDdqU+CqlCQk=
+SHA256 (Pkgfile) = ca362b37818de4a0644db100ab4d20ef3a0e3687e65e6252a1f2cdb5fbec5eb9
+SHA256 (.footprint) = 4e988dd62c69e22e91fb02e3c54a844eb1e472b444cb1aa90119c0ecfbe87474
+SHA256 (tango-icon-theme-0.8.90.tar.gz) = 6e98d8032d57d818acc907ec47e6a718851ff251ae7c29aafb868743eb65c88e
+SHA256 (rsvg.patch) = 56d90a8e11bfe4ae55200e8109e5147c3804f8c48003e0ea980d448b8d5b9ec3

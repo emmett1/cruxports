@@ -1,0 +1,15 @@
+# Description: ACPI tools, including Intel ACPI Source Language compiler
+# URL: https://acpica.org/
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+
+name=iasl
+version=20230628
+release=1
+source=(https://downloadmirror.intel.com/783534/acpica-unix-$version.tar.gz)
+
+build() {
+	cd acpica-unix-$version
+	export CFLAGS="$CFLAGS -Wno-dangling-pointer"
+	make
+	make DESTDIR=$PKG install
+}

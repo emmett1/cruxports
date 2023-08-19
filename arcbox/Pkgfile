@@ -1,0 +1,14 @@
+# Description: Simple openbox theme for Arc GTK2/3 theme
+# URL: https://github.com/gcavallo/Arcbox
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+
+name=arcbox
+version=0.1.2
+release=1
+source=(https://github.com/gcavallo/Arcbox/archive/v$version/$name-$version.tar.gz)
+
+build() {
+	cd Arcbox-$version
+	mkdir -p $PKG/usr/share/themes/Arcbox
+	cp -Ra openbox-3 $PKG/usr/share/themes/Arcbox
+}

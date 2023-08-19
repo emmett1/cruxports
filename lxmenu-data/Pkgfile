@@ -1,6 +1,6 @@
-# Description:	Freedesktop.org menu spec-compliant desktop menus for LXDE
-# URL:		http://lxde.org/
-# Maintainer:	Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Description: Freedesktop.org menu spec-compliant desktop menus for LXDE
+# URL: http://lxde.org/
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
 
 name=lxmenu-data
 version=0.1.5

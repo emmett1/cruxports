@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STU5ObCQ67InJ+PYODt4uXGolpVj3v17g9DRxvdv/z3M9Pdgm/jWFD618H85FuGHFihhIbGMkruo33MjIz2wWXQI=
+SHA256 (Pkgfile) = b91888bd33abf8993eb13892664fbac45844833936ee2f251a3b6b154f724cae
+SHA256 (.footprint) = 17056be423e5cc6efc53af103a4d7f6986f44331481ccfeeac4b3e83533eb75d
+SHA256 (udisks-2.10.0.tar.bz2) = 4f5a7a592526f7f32795a1f2211c67b9a649ab40386752f9a71ebaa2fc2090bc

@@ -1,15 +1,18 @@
-# Description:	A simple, fast and elegant image viewer program
-# URL:		http://xsisqox.github.com/Viewnior/
-# Maintainer:	emmett1, emmett1 dot 2miligrams at gmail dot com
-# Depends on:	exiv2 gtk gnome-common intltool meson perl pkg-config
+# Description: A simple, fast and elegant image viewer program
+# URL: http://xsisqox.github.com/Viewnior/
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on: exiv2 gtk gnome-common intltool meson perl
 
 name=viewnior
-version=1.7
+version=1.8
 release=1
-source=(https://github.com/hellosiyan/Viewnior/archive/$name-$version.tar.gz)
+source=(https://github.com/hellosiyan/Viewnior/archive/$name-$version.tar.gz
+	exiv2-0.28.patch)
 
 build() {
 	cd Viewnior-$name-$version
+
+	patch -Np1 -i ../exiv2-0.28.patch
 	
 	mkdir build
 	cd    build

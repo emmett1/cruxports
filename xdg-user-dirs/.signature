@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STTA45qAnAMdmcqGe7PDMLNUZgTE2TYFWBfToAytJ0bzZYNQgE5bO70/88zSMqYwP9IvPHB0pvOKDt5RZt94e8w8=
+SHA256 (Pkgfile) = bab75176da371e3d345346c784841a4a24b7d64667afc108dee4c3acf213f347
+SHA256 (.footprint) = 1143a2e697a2ca18e8d6a758dbe7f2253a077b6fcb7896c259b820d36b608a8e
+SHA256 (xdg-user-dirs-0.18.tar.gz) = ec6f06d7495cdba37a732039f9b5e1578bcb296576fde0da40edb2f52220df3c

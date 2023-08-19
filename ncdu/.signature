@@ -1,0 +1,5 @@
+untrusted comment: verify with /etc/ports/emmett1.pub
+RWQ7/SffIg3STdCnfD/1/3KtM7XQTDR1QMJ7ACsyC069JXe0V7C4EIsZmAOGUPmTlVQCqCGNNIh7IVTgl6YoQXsNCOvsKF6Odgo=
+SHA256 (Pkgfile) = ae18eeca46b31f4094e968c04264ef8b95d64f9592cfff4c01104d3aece2d751
+SHA256 (.footprint) = 5d73e271c8a3b72f2c5a3eb50bfbbc085b21655ae1a004fbdbbe4993393a2e42
+SHA256 (ncdu-2.1.2-linux-x86_64.tar.gz) = c837b535a5b42b5c9813bc5719358d6fc84ded3c4d477e779edd0f4ca88b2b60

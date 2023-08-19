@@ -1,0 +1,28 @@
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Description: GTK+ download manager featuring download classification and HTML import
+# URL: http://ugetdm.com/
+# Depends on: libnotify gtk3 gstreamer curl
+
+name=uget
+version=2.2.2
+release=1
+source=(http://downloads.sourceforge.net/urlget/$name-$version.tar.gz)
+
+build() {
+	cd $name-$version
+
+	export CFLAGS="$CFLAGS -fcommon"
+
+	# replace interpreter to #!/bin/bash
+	# the configure script is bashism
+	sed '1 s,^.*$,#!/bin/bash,' -i configure
+
+	./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--localstatedir=/var \
+		--disable-nls
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/locale
+}

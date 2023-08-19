@@ -1,0 +1,21 @@
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Description: Lightweight GTK+ clipboard manager (fork of Parcellite)
+# URL: https://sourceforge.net/projects/gtkclipit/
+# Depends on: librsvg gtk
+
+name=clipit
+version=1.4.5
+release=1
+source=(https://github.com/CristianHenzel/ClipIt/archive/v$version/$name-$version.tar.gz)
+
+build() {
+	cd ClipIt-$version
+	./autogen.sh
+		./configure \
+		--prefix=/usr \
+		--sysconfdir=/etc \
+		--with-gtk3 \
+		--disable-nls
+	make
+	make DESTDIR=$PKG install
+}

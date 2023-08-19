@@ -1,0 +1,11 @@
+#!/bin/sh
+
+# get slack kernel name
+kver=$(file /boot/vmlinuz-slack | awk '{print $9}')
+
+if [ $(command -v mkinitramfs) ]; then
+	echo "mkinitramfs: generating initramfs for kernel $kver..."
+	mkinitramfs -q -k $kver -o /boot/initrd-slack.img
+fi
+
+depmod $kver

@@ -1,0 +1,21 @@
+# Description: Fast and lightweight IDE
+# URL: https://www.geany.org/
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+
+name=geany
+version=1.38
+release=1
+source=(http://download.geany.org/$name-$version.tar.bz2)
+
+build() {
+	cd $name-$version
+
+	./configure \
+		--prefix=/usr \
+		--enable-plugins \
+		--enable-gtk3
+	make
+	make DESTDIR=$PKG install
+	rm -rf $PKG/usr/share/doc
+	rm -rf $PKG/usr/share/locale
+}

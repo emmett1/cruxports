@@ -1,10 +1,10 @@
-# Description:	Daemon, tools and libraries to access and manipulate disks and storage devices
-# URL:		https://www.freedesktop.org/wiki/Software/udisks
-# Maintainer:	Emmett1, emmett1 dot 2miligrams at gmail dot com
-# Depends on:	libatasmart libblockdev libgudev libxslt polkit gobject-introspection
+# Description: Disk Management Service, version 2
+# URL: https://www.freedesktop.org/wiki/Software/udisks/
+# Maintainer: Emmett1, emmett1 dot 2miligrams at gmail dot com
+# Depends on: libblockdev libatasmart libgudev
 
 name=udisks2
-version=2.8.4
+version=2.10.0
 release=1
 source=(https://github.com/storaged-project/udisks/releases/download/udisks-$version/udisks-$version.tar.bz2)
 
@@ -19,6 +19,5 @@ build() {
 		    --disable-man
 	make
 	make DESTDIR=$PKG install
-
-	rm -r $PKG/usr/share/{locale,gtk-doc}
+	rm -rf $PKG/usr/share/locale/
 }
